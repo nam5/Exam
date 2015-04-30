@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shaein.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".activity.RelativeLayoutExamActivity"
+            android:label="@string/title_activity_relative_layout_exam" >
+        </activity>
+        <activity
+            android:name=".activity.TableLayoutActivity"
+            android:label="@string/title_activity_table_layout" >
+        </activity>
+        <activity
+            android:name=".activity.FrameLayoutActivity"
+            android:label="@string/title_activity_frame_layout_actitity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.EditTextActivity"
+            android:label="@string/title_activity_edit_text" >
+        </activity>
+        <activity
+            android:name=".activity.ActivityExamActivity"
+            android:label="@string/title_activity_activity_exam" >
+        </activity>
+        <activity
+            android:name=".activity.TargetActivity"
+            android:label="@string/title_activity_target" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge.challenge04.SubActivity"
+            android:label="@string/title_activity_sub" >
+        </activity>
+        <activity
+            android:name=".event.TouchEventActivity"
+            android:label="@string/title_activity_touch_event" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge04.Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge05.doltMission05"
+            android:label="@string/title_activity_dolt_mission05" >
+        </activity>
+        <activity
+            android:name=".activity.keypad"
+            android:label="@string/title_activity_keypad" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge01.ImageExamActivity"
+            android:label="@string/title_activity_image_exam" >
+        </activity>
+        <activity
+            android:name=".challenge.challege02.SMSActivity"
+            android:label="@string/title_activity_sms" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge06.Mission06MainActivity"
+            android:label="@string/title_activity_mission06_main" >
+        </activity>
+        <activity
+            android:name=".listView.data.ListViewExam02Activity"
+            android:label="@string/title_activity_list_view_exam02" >
+        </activity>
+        <activity
+            android:name=".listView.data.ListViewExam01Activity"
+            android:label="@string/title_activity_lisst_view_exam01" >
+        </activity>
+        <activity
+            android:name=".listView.data.GridActivity"
+            android:label="@string/title_activity_grid" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge06.CalendarAdapter"
+            android:label="@string/title_activity_calendar_adapter" >
+        </activity>
+        <activity
+            android:name=".challenge.challenge06.CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name=".DbAdapter"
+            android:label="@string/title_activity_db_adapter" >
+        </activity>
+        <activity
+            android:name=".listView.data.SpinnerActivity"
+            android:label="@string/title_activity_main3" >
+        </activity>
+    </application>
+
+</manifest>

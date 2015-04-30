@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">테스트</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_relative_layout_exam">RelativeLayoutExamActivity</string>
+    <string name="title_activity_table_layout">TableLayoutActivity</string>
+    <string name="title_activity_frame_layout_actitity">FrameLayoutActitity</string>
+    <string name="title_activity_edit_text">edit_text</string>
+    <string name="title_activity_activity_exam">ActivityExamActivity</string>
+    <string name="title_activity_target">TargetActivity</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="title_activity_touch_event">TouchEventActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_dolt_mission05">doltMission05</string>
+    <string name="title_activity_keypad">keypad</string>
+    <string name="title_activity_image_exam">ImageExamActivity</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="title_activity_mission06_main">Mission06MainActivity</string>
+    <string name="title_activity_list_view_exam02">ListViewExam02Activity</string>
+    <string name="title_activity_custom_adapter">CustomAdapter</string>
+    <string name="title_activity_lisst_view_exam01">LisstViewExam01Activity</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_calendar_adapter">CalendarAdapter</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_db_adapter">DbAdapter</string>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>

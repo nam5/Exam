@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Widget Style -->
+    <style name="Nova.Widget.Button" parent="android:Widget.Button">
+        <!-- button background, touch feed back -->
+        <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+
+        <!-- button minimum size -->
+        <item name="android:minWidth">96dp</item>
+        <item name="android:minHeight">48dp</item>
+
+        <!-- button text style -->
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff0000</item>
+
+    </style>
+
+</resources>
