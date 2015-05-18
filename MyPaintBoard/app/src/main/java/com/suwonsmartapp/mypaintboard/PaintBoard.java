@@ -14,6 +14,9 @@ import android.view.View;
  * Created by Shaein on 2015-04-18.
  */
 public class PaintBoard extends View {
+    //Context : 일반적으로 어떤 일이 발생한 상황을 의미하는 말(프로그래밍 언어에서는 객체의 상태정보를 표현)
+    //안드로이드에서는 UI 구성요소인 View에 대한 정보를 손쉽게 확인하거나 설정할 수 있도록 뷰의 생성자에
+    //Context 객체를 전달하도록 되어 있음.
     Context mContext;
     Paint paint;
 

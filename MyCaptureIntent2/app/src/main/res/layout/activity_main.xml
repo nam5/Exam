@@ -13,4 +13,21 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:onClick="onButton1Clicked" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"></FrameLayout>
 </RelativeLayout>

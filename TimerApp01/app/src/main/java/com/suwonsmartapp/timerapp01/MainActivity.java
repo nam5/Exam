@@ -2,7 +2,7 @@ package com.suwonsmartapp.timerapp01;
 
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Chronometer;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
 

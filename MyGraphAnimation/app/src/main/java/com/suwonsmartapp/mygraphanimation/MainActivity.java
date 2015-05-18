@@ -1,8 +1,8 @@
 //Do it 안드로이드 롤리팝 Day 27 03(youtube)
 package com.suwonsmartapp.mygraphanimation;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.animation.Animation;
@@ -11,7 +11,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     Animation grow;
     ProgressBar progressBar;
 
